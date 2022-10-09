@@ -22,3 +22,7 @@ Facebook tarafından 2012 yılında geliştirilmiş, 2015 yılında açık kayna
 * Tüm istekler POST olduğu için ve yapılan istekler tek bir url'e olduğu için url bazlı cache işlemleri için efor artabilir.
 * Atılan isteğin karmaşıklığını client tarafından gelen sorgu belirliyor. Sorgunun karmaşıklığının artması performans kaybına sebep olabilir.
 * Rest tabanlı uygulamalarda statü koduna göre gelen hata yorumlanabilirken GraphQL tarafında dönen her istek 200 statü kodlu olarak dönmektedir.
+
+###### -------------------------------
+
+###### -------------------------------
