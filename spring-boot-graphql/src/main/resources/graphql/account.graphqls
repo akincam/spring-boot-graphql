@@ -1,0 +1,15 @@
+enum AccountState{
+    ACTIVE,
+    PASSIVE,
+    NEEDS_ACTIVATION
+}
+
+type AccountResponse{
+    id : ID!, #null
+    name: String,
+    state: AccountState,
+}
+
+extend type Query {
+    getAccountById(id : Int) : AccountResponse
+}

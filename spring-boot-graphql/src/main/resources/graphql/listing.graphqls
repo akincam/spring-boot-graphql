@@ -1,0 +1,31 @@
+enum ListingState{
+    TEMP,
+    DRAFT,
+    DELETED,
+    PRIVATE,
+    PUBLISHED
+}
+
+type ListingResponse{
+    id : ID!,
+    title: String,
+    price: Float,
+    state: ListingState,
+    publishedAt: String,
+}
+
+input ListingRequest{
+    title: String,
+    price: Float,
+    publishedAt: String,
+}
+
+extend type Query {
+    getAllListing : [ListingResponse]
+    getListingById(id : Int) : ListingResponse
+}
+
+extend type Mutation {
+    addListing(listingRequest : ListingRequest) : Boolean
+}
+
