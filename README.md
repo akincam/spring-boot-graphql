@@ -24,5 +24,5 @@ Facebook tarafından 2012 yılında geliştirilmiş, 2015 yılında açık kayna
 * Rest tabanlı uygulamalarda statü koduna göre gelen hata yorumlanabilirken GraphQL tarafında dönen her istek 200 statü kodlu olarak dönmektedir.
 
 ###### -------------------------------
-
+Yazının tamamı: https://medium.com/@aknncam/nedir-bu-graphql-beb6309a2c70
 ###### -------------------------------
